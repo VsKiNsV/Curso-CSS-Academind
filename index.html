@@ -11,10 +11,22 @@
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
+        <div class="backdrop"></div>
+        <div class="modal">
+        <h1 class="modal__title">Deseas permanecer en la página?</h1> 
+        <div class="modal__actions">
+            <a href="start-hosting/index.html" class=" modal__action">Si :D</a>
+            <button class="modal__action modal__action--negative" type="button">No :c</button>
+        </div>
+    </div>
     <header class="main-header">
         <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span> 
+            </button>
             <a href="index.html" class="main-header_brand">
                 <img src="../Images/Logo Pagina web2_Mesa de trabajo 1 (2).png" alt="Vskinsv tu página de skins favoritas">
             </a>
@@ -33,6 +45,19 @@
             </ul>
         </nav>
     </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="packages/index.html">Paquetes</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="customers/index.html">Clientes</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="start-hosting/index.html">Iniciar Sesión</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section id="product-overview">
             <h1>Lo que te mereces y más.</h1>
@@ -119,6 +144,8 @@
             </ul>
         </nav>
     </footer>
+    <script src="shared.js"></script>
 </body>
+
 
 </html>

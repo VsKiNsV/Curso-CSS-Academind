@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vskinsv</title>
-    <link rel="inserta icono" href="">
+    <link rel="inserta icono" href="../Images/Logo Pagina web2_Mesa de trabajo 1 (2).png">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../shared.css">
@@ -13,9 +13,14 @@
 </head>
 
 <body>
-    <div class="background"></div>
+    <div class="backdrop"></div>
         <header class="main-header">
          <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span> 
+            </button>
             <a href="../index.html" class="main-header_brand">
                 <img src="../Images/Logo Pagina web2_Mesa de trabajo 1 (2).png" alt="Vskinsv tu página de skins favoritas">
             </a>
@@ -23,7 +28,7 @@
         <nav class="main-nav">
             <ul class="main-nav_items">
                 <li class="main-nav_item">
-                    <a href="index.html">Paquetes</a>
+                    <a href="../packages/index.html">Paquetes</a>
                 </li>
                 <li class="main-nav_item">
                     <a href="../customers/index.html">Clientes</a>
@@ -34,6 +39,19 @@
             </ul>
         </nav>
     </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="..packages/index.html">Paquetes</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="index.html">Clientes</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="..start-hosting/index.html">Iniciar Sesión</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <div>
             <div class="testimonial" id="cliente-1">
@@ -75,6 +93,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="shared.js"></script>
 </body>
 
 </html>
