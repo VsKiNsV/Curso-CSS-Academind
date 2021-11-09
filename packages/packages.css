@@ -3,7 +3,7 @@ main {
 }
 
 .background {
-    background: url("../Images/xd.jpg");
+    background: url("../Images/xd.jpg") center/cover;
     width: 100%;
     height: 100% ;
     position: fixed;
@@ -59,14 +59,23 @@ main {
 
 #PLUS {
     background: rgba(213, 255, 220, 0.95);
+    float:center;
+    padding: 10px;
+    width: 50%;
+    display:;
+    vertical-align:center; 
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    position:static;
 }
 
 #GRATIS {
     background: rgba(213, 255, 220, 0.95);
     float: right;
     border-right: none;
-    border-left: 4px solid #0e4f1f;
+    border-left: 4px solid;
     text-align: right;
+    width: 75%;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
 }
 
 #free:hover,
@@ -76,12 +85,20 @@ main {
 
 #PREMIUM{
     background: rgba(213, 255, 220, 0.95);
+    width: 50%;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
 }
 
 #PREMIUM .package.package__tittle {
     color: white;
+    
 }
 
 #PREMIUM .package__subtittle {
     color: #525151
+    
+}
+
+.section#plus .package{ 
+    
 }

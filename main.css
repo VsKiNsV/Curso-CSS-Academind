@@ -130,6 +130,7 @@
     border: 2px solid rgb(192, 190, 190);
     border-radius: 50%;
     margin:auto;
+    padding: 20px;
 }
 
 .key-feature__description {
@@ -159,6 +160,12 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    height: 20px;
+}
+
+.main-header_brand image {
+    height: 2987px;
+    width: 100%;
 }
 
 .main-nav {
