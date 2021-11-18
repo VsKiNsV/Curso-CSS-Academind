@@ -33,8 +33,10 @@
     padding: 16px;
     margin: 8px;
     display: inline-block;
-    width: 30%;
+    width: 25%;
     vertical-align: middle; 
+    border-radius: 1rem;
+    
 }
 
 .plan--highlighted{
@@ -289,4 +291,20 @@
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc; 
+}
+
+@media screen and ( min-width: 49rem) {
+    .plan{
+        width: 28%;
+        height: 20rem;
+    }
+}
+
+@media screen (min-width: 658px) {
+    .plan--highlighted {
+       max.width: 5rem;
+        width:14%;
+        display: inline-block
+    }
+    
 }

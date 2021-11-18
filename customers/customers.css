@@ -81,6 +81,29 @@
     margin: 0.2rem;
 }
 
+@media screen and ( min-width : 1012px) {
+    body{
+        background-color: #fff;
+    }
+     
+}
+
+@media screen and ( max-width : 850px) {
+    body { 
+        background-color: #3C3D3D;
+    }
+    
+}
+
+@media screen and ( max-width : 850px ) 
+{
+    .main-header {
+        background-color: #989EA0;
+    }
+    
+}
+
+
 
 
 
