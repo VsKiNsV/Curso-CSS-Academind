@@ -36,9 +36,7 @@
     width: 25%;
     vertical-align: middle; 
     border-radius: 1rem;
-    flex-basis: auto;
-    order: 10%;
-    
+  
 }
 
 .plan--highlighted{
@@ -46,7 +44,6 @@
     color: white;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
     border-radius: 7px;
-    flex-basis: auto;
 }
 
 .plan__annotation{
@@ -296,22 +293,26 @@
     color: #ccc; 
 }
 
-@media screen and ( min-width: 49rem) {
+@media screen and ( min-width: 40rem) {
     .plan{
-        width: auto;
+        width: max-content;
         height: auto;
         display: flex;
         justify-content: center;
-        align-self: auto;
+        align-self: center;
+    }
+    .plan__list{
+        display: flex;
+        justify-content: center;
     }
 }
 
-@media screen (min-width: 658px) {
-    .plan--highlighted {
-       max.width: 5rem;
-        width:14%;
-        display: inline-block
-        flex-basis: auto;
+@media screen and (min-width: 464px) {
+    .plan{
+        flex-direction: column;
+        width:80%;
     }
-    
+    #plans{
+        width: 100vw;
+    }
 }
