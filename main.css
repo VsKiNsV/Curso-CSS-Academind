@@ -36,6 +36,8 @@
     width: 25%;
     vertical-align: middle; 
     border-radius: 1rem;
+    flex-basis: auto;
+    order: 10%;
     
 }
 
@@ -44,6 +46,7 @@
     color: white;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
     border-radius: 7px;
+    flex-basis: auto;
 }
 
 .plan__annotation{
@@ -55,7 +58,7 @@
 }
 
 .plan__title {
-    color: sienna;
+    color: sienna; 
 }
 
 .plan__price{
@@ -295,8 +298,11 @@
 
 @media screen and ( min-width: 49rem) {
     .plan{
-        width: 28%;
-        height: 20rem;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-self: auto;
     }
 }
 
@@ -305,6 +311,7 @@
        max.width: 5rem;
         width:14%;
         display: inline-block
+        flex-basis: auto;
     }
     
 }
